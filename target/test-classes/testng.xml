@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/SDET Practice/TestNgProject/src/test/java/suitea/TestA.java">
-        <classes>
-            <class name="suitea.TestA">
-                <methods>
-                    <include name="testA"/>
-                    <include name="testA1"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
+    
+    <suite-files>
+        <suite-file path="suiteA.xml"></suite-file>
+        <suite-file path="suiteB.xml"></suite-file>
+        <suite-file path="suiteC.xml"></suite-file>
+    </suite-files>
 </suite>

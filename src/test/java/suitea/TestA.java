@@ -6,10 +6,10 @@ import testBase.TestBase;
 public class TestA extends TestBase {
 
     @Test
-    public void testA() throws InterruptedException {
-        System.out.println("Starting testing A");
-        Thread.sleep(3000);
-        System.out.println("Ending testing A");
+    public void testA0() throws InterruptedException {
+        System.out.println("Starting testing A0");
+        Thread.sleep(4000);
+        System.out.println("Ending testing A0");
     }
 
     @Test
