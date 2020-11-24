@@ -7,15 +7,15 @@ public class TestAA extends TestBase
 {
     @Test
     public void testAA0() throws InterruptedException {
-        System.out.println("Starting testing AA0");
+        log("Starting testing AA0");
         Thread.sleep(4000);
-        System.out.println("Ending testing AA0");
+        log("Ending testing AA0");
     }
 
     @Test
     public void testAA1() throws InterruptedException {
-        System.out.println("Starting test AA1");
+        log("Starting test AA1");
         Thread.sleep(4000);
-        System.out.println("Ending testing AA1");
+        log("Ending testing AA1");
     }
 }
